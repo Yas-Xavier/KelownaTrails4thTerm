@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "staging": "ktt-yasmin-staging",
+    "production": "ktt-yasmin-prod"
+  }
+}
