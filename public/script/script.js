@@ -4,7 +4,8 @@ SCRIPT
 Author: Washington Valencia
 Instructor: Washington Valencia
 
-ENTER STUDENT INFORMATION HERE 
+Yasmin Xavier Eraldo
+Student Number: CT1005891
 ==========================================
 CCTB project DevOps course
 STUDENT NAME: 
@@ -151,9 +152,11 @@ function AddGroupMember(lastName, firstName) {
 * 
 */
 function RemoveGroupMember() {
-
-	throw "ERROR! You must work in this function before to send to Staging Environment!";
-
+if (membersLst.selectedIndex >= 0) {
+        membersLst.remove(membersLst.selectedIndex);
+    } else {
+        throw "Please select a member to remove!";
+    }
 }
 
 /*
